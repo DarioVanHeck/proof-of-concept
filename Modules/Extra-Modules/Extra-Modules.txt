@@ -1,0 +1,26 @@
+=======================
+	Space
+=======================
+
+Er zal gescand worden naar de beschikbare ruimte. Aangezien dit commando niet het aantal GB weergeeft, zal deze
+waarden moeten gedeeld worden door 1GB.
+
+=======================
+       Keuze Menu
+=======================
+
+De hoofdvraag en de verschillende keuzes moeten meegegeven worden bij het aanroepen van de functie.
+Hierna zal de vraag worden overlopen voor de lengte zodat hier een onderscheiding kan gemaakt worden met de
+antwoorden. 
+
+Daarna zal er over de antwoorden worden gelooped en zullen deze in de output worden weergegeven.
+Deze antwoorden krijgen een nummer. Als de gebruiker iets anders dan een van de nummer ingeeft, is dit ongeldig
+en zal deze een nieuwe keuze moeten maken.
+
+=======================
+      Meer Keuze
+=======================
+
+Gebaseerd op voorgaande functie. Het verschil hier is dat de gebruiker meerdere keuzes kan maken. Hier wordt 
+steeds een vraag gesteld waarbij Y of N moet worden geantwoord. Als dit antwoord geldig was, zal de volgende vraag
+worden gesteld.

@@ -1,0 +1,11 @@
+Het securityProtocol commando is verplicht hier! Zonder dit commando kan er geen connectie worden gemaakt naar 
+het internet waar de installer kan over worden gedownload.
+
+De variabele $cookie zorgt ervoor dat de license wordt geaccepteerd, dit moet gebeuren vooraleer het bestand
+kan worden gedownload. Als dit niet wordt gedaan dan zal enker maar een paar kb worden gedownload.
+
+
+
+De install file moet gemaakt worden om de installatie stil te laten verlopen. Het belangrijkste commando hiervoor
+is INSTALL_SILENT=Enable. Dit commando zal dan aan het .txt bestand worden toegevoegd en zal worden aangeroepen bij
+de installatie

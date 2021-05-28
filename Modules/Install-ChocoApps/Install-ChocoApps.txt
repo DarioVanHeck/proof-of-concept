@@ -1,0 +1,23 @@
+===========================
+        Parameters
+===========================
+
+$short: Deze parameter zal gebruikt worden voor het aanmaken van snelkoppeling. Moet "Ja" of "Nee" zijn.
+$choconame: Deze parameter bevat de naam van de applicatie die gebruikt wordt in het Chocolatey-commando om de applicatie te installeren.
+$appname: De naam die zal gebruikt worden om na te gaan in de registry of de applicatie al is geïnstalleerd.
+$exename: De naam van het .exe bestand waar een snelkoppeling van zal worden gemaakt
+
+===========================
+          Eclipse
+===========================
+
+Eclipse wordt op een andere manier nagekeken dan de andere applicaties. Dit komt omdat Eclipse geen record
+aanmaakt in de registry. Hiervoor zal dus de C:-schijf worden gescanned voor het .exe bestand.
+
+===========================
+       choco install
+===========================
+
+Het  commando dat gebruikt wordt om een chocolatey applicatie te installeren.
+Aangezien sommige packages geen built-in functie hebben om geen snelkoppelingen aan te maken
+zal er gescanned worden naar de snelkoppeling en zal deze worden verwijderd.

@@ -1,0 +1,18 @@
+======================
+      Parameter
+======================
+
+De short parameter wordt gebruikt voor het al dan niet aanmaken van een snelkoppeling. Moet Ja of Nee zijn.
+
+======================
+     Installatie
+======================
+
+De installatiebestand zullen worden gedownload. Dit bevat het exe bestand alsook een zipbestand met de
+installconfig. In dit bestand staan de nodige parameters voor de installatie stil te laten verlopen.
+
+Hierna zal dit zip bestand worden uitgepakt
+
+Vervolgens wordt er naar de directory gegaan waar de installatie zal beginnen
+
+Na de installatie zullen de bestanden worden verwijderd.
